@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.recording .avatar_friends {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid #fdfffd;
+  /* Параметры рамки */
+  box-shadow: 0 0 7px #ece7e7;
+  margin-top: 20px;
+  margin-left: 20px; }
+.recording .recording_header {
+  display: flex; }
+  .recording .recording_header h2 {
+    color: #1148fd;
+    margin-left: 20px; }
+.recording .recording_content {
+  display: flex;
+  margin-left: 50px;
+  background-color: #e7e2e2;
+  margin-right: 50px;
+  margin-top: 20px; }
+.recording .recording_like {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+  .recording .recording_like span {
+    margin-right: 5px;
+    margin-left: 20px; }

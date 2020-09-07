@@ -1,0 +1,42 @@
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: h;
+    width: 100%;
+ 
+}
+p {
+    color: #666666;
+}
+a {
+    text-decoration: none;
+}
+.header_nav {
+    
+    li {
+        display: inline-block;
+        margin-left: 30px;
+       
+    }
+}
+.header_avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid rgb(253, 255, 253); /* Параметры рамки */
+    box-shadow: 0 0 7px rgb(236, 231, 231); /* Параметры тени */
+    margin-right: 20px;
+    
+}
+.header_nav_icons {
+    li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+.logo {
+    margin-left: 20px;
+}

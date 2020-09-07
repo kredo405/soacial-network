@@ -1,0 +1,23 @@
+.navBar {
+    grid-area: nav;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    min-height: 250px;
+    justify-content: start;
+    min-width: 200px;
+   
+    li {
+        list-style-type: none;
+        padding-bottom: 10px;
+        a {
+            color: rgb(77, 77, 77);
+        }
+        a:hover {
+            color: rgb(12, 95, 204);
+            
+        }
+        a.active {
+            color: steelblue;
+        }
+    }
+}

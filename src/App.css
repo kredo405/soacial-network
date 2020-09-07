@@ -1,0 +1,13 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-areas: 
+        'h h h h'
+        'nav a a a'
+        'nav a a a'
+       ;
+       grid-gap: 20px;
+    background-color: rgb(223, 223, 223);
+ 
+}
+

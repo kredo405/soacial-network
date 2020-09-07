@@ -1,0 +1,16 @@
+.navBar {
+  grid-area: nav;
+  background-color: #fdfdfd;
+  display: flex;
+  min-height: 250px;
+  justify-content: start;
+  min-width: 200px; }
+  .navBar li {
+    list-style-type: none;
+    padding-bottom: 10px; }
+    .navBar li a {
+      color: #4d4d4d; }
+    .navBar li a:hover {
+      color: #0c5fcc; }
+    .navBar li a.active {
+      color: steelblue; }

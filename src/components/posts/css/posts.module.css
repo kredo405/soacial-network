@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.posts {
+  background-color: white;
+  min-height: 160px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center; }
+  .posts .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* Радиус скругления */
+    border: 3px solid white;
+    /* Параметры рамки */ }
+  .posts .form_control {
+    min-width: 550px; }

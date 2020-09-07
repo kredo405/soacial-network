@@ -1,0 +1,4 @@
+.dialogs_page {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-column-gap: 100px; }
