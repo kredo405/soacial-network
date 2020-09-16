@@ -8,6 +8,6 @@
        ;
        grid-gap: 20px;
     background-color: rgb(223, 223, 223);
- 
+    box-sizing: border-box;
 }
 

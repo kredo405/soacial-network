@@ -11,18 +11,20 @@ function Dialogs() {
   return (
     <div className ={dialogs.dialogs_page}>
         <div className= {dialogs.dialogs}>
-            <Dialog name = 'Татьяна Крейдич' id = '1'/>
-            <Dialog name = 'Елена Кривецкая' id = '2'/>
-            <Dialog name = 'Инна Жук' id = '3'/>
-            <Dialog name = 'Ирина Гузюк' id = '4'/>
-            <Dialog name = 'Ольга Квачук' id = '5'/>
-            <Dialog name = 'Леонид  Крейдич' id = '6'/>
-            <Dialog name = 'Дмитрий Жук' id = '7'/>
+          <div>
+            <h2>Диалоги</h2>
+          </div>
+            <Dialog name = 'Татьяна Крейдич' id = '1' image = {require('./img/1.jpg')}/>
+            <Dialog name = 'Елена Кривецкая' id = '2'  image = {require('./img/2.jpg')}/>
+            <Dialog name = 'Инна Жук' id = '3'  image = {require('./img/3.jpg')}/>
+            <Dialog name = 'Ирина Гузюк' id = '4'  image = {require('./img/4.jpg')}/>
+            <Dialog name = 'Ольга Квачук' id = '5'  image = {require('./img/5.jpg')}/>
+            <Dialog name = 'Леонид  Крейдич' id = '6'  image = {require('./img/6.jpg')}/>
+            <Dialog name = 'Дмитрий Жук' id = '7'  image = {require('./img/7.jpg')}/>
         </div>
         <div className = {dialogs.messege}>
-            <Messege messege = 'Привет как дела??'/>
-            <Messege messege = 'Буудешь ехать на бронку???'/>
-            <Messege messege = 'Что тебе сварить покушать??'/>
+            <Messege messageImage = {require('./img/4.jpg')} status = 'Online' messageName = 'Ирина гузюк' messege = 'Привет как дела??'/>
+
 
         </div>
     </div>

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": ";AAAA,OAAQ;EACJ,UAAU,EAAE,GAAG;EACf,MAAM,EAAE,OAAO;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EAGpB,sBAAc;IACV,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,aAAa,EAAE,KAAK;IAAE,uBAAuB;IAC7C,MAAM,EAAE,iBAA4B;IAAE,qBAAqB;IAC3D,UAAU,EAAE,eAA0B;IAAE,oBAAoB;IAC5D,YAAY,EAAE,IAAI;EAEtB,yBAAkB;IACd,eAAe,EAAE,IAAI;EAIzB,mBAAY;IACR,KAAK,EAAE,OAAkB;;AAGjC,aAAc;EACV,gBAAgB,EAAE,uBAAuB",
+"sources": ["../sass/dialog.module.scss"],
 "names": [],
 "file": "dialog.module.css"
 }

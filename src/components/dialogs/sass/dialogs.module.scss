@@ -1,6 +1,19 @@
 .dialogs_page {
-    display: grid;
-    grid-template-columns: 4fr 8fr;
-    grid-column-gap: 100px;
+   display: grid;
+   grid-column: 2/5;
+    grid-template-columns: 2fr 3fr;
+    background-color: rgb(247, 247, 247);
+   
+    h2 {
+        text-align: center;
+        color: rgb(87, 87, 87);
+    }
+    .dialogs {
+        margin-left: 10px;
+        box-shadow: inset -5px 0 0 rgb(141, 141, 141);
+        overflow: scroll;
+        box-sizing: border-box; 
+        position: relative;
+    }
 
 }

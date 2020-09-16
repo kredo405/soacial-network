@@ -10,7 +10,7 @@ function Dialog(props) {
   return (
     <div>
         <div className= {dialog.dialog}>
-  <NavLink to = {'dialog/' + props.id}>{props.name}</NavLink>
+  <NavLink className = {dialog.one_dialog} to = {'dialog/' + props.id}><img src ={props.image} className= {dialog.avatar_dialog}/>{props.name}</NavLink>
         </div>
     </div>
   );

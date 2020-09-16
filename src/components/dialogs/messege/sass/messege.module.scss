@@ -1,0 +1,49 @@
+.messege {
+  display: grid;
+  grid-column: 4/5;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-areas: 
+        'head head'
+        'cor cor'
+        'inp inp';
+   
+    .message_avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px; /* Радиус скругления */
+        border: 3px solid rgb(253, 255, 253); /* Параметры рамки */
+        box-shadow: 0 0 7px rgb(236, 231, 231); /* Параметры тени */
+        margin-right: 20px;
+    }
+    .messege_header {
+        border-bottom: rgb(189, 189, 189) 1px solid;
+        padding: 5px;
+        grid-area: head;
+
+    }
+    .correspondence {
+        grid-area: cor;
+        margin-top: 20px;
+        overflow-y: scroll;
+    }
+    .input_message {
+        grid-area: inp;
+        .input_group {
+            display: flex;
+         
+        }
+        .input_group .input {
+         width: 80%;
+         border: rgb(206, 202, 202) 1px solid;
+         border-radius: 10px;
+        }
+        .input_addon {
+            margin-left: 10px;
+            border: rgb(20, 183, 224) 3px solid;
+            border-radius: 10px;
+            width: 10%;
+            background-color: rgb(15, 204, 230);
+        }
+    }
+}

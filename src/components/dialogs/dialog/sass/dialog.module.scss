@@ -1,3 +1,28 @@
 .dialog {
+    margin-top: 5px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+    
+    .avatar_dialog{ 
+        width: 50px;
+        height: 50px;
+        border-radius: 100px; /* Радиус скругления */
+        border: 3px solid rgb(253, 255, 253); /* Параметры рамки */
+        box-shadow: 0 0 7px rgb(236, 231, 231); /* Параметры тени */
+        margin-right: 20px;
+    }
+    .one_dialog:hover {
+        text-decoration: none; 
+     
+        
+    }
+    .one_dialog {
+        color: rgb(109, 109, 109);
+    }
+}
+.dialog:hover {
+    background-color: rgba(92, 226, 208, 0.5);
 
 }

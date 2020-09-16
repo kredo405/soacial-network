@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.image_message {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid #fdfffd;
+  /* Параметры рамки */
+  box-shadow: 0 0 7px #ece7e7;
+  /* Параметры тени */
+  margin-right: 20px; }
+
+.one_message .message_text {
+  padding: 5px;
+  background-color: rgba(121, 212, 167, 0.3); }
