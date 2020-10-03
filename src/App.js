@@ -10,13 +10,12 @@ import Dialogs from './components/dialogs/dialogs';
 
 
 
-
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header/>
-     <Route path='/MyPage' component ={MyPage}/>
-     <Route path='/Dialogs' component = {Dialogs}/>
+     <Route path='/MyPage' render ={() => <MyPage state ={props.state.profilePage}/>}/>
+  <Route path='/Dialogs' render ={() => <Dialogs data = {props.state.messagesPage} />}/>
       <NavBar/>
     </div>
   );

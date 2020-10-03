@@ -1,23 +1,58 @@
+
 .navBar {
     grid-area: nav;
-    background-color: rgb(253, 253, 253);
-    display: flex;
+    background-color: #2ca8ff;
     min-height: 250px;
-    justify-content: start;
-    min-width: 200px;
-   
-    li {
-        list-style-type: none;
-        padding-bottom: 10px;
-        a {
-            color: rgb(77, 77, 77);
-        }
-        a:hover {
-            color: rgb(12, 95, 204);
+    min-width: 150px;
+
+    .logoNavs {
+        display: flex;
+        justify-content: center;
+        border-bottom: rgb(189, 189, 189) 1px solid;
+        color: rgba(242, 250, 242, 0.685);
+        padding: 10px;
+        .sign_logo {
+            width: 40px;
+            height: 40px;
             
         }
-        a.active {
-            color: steelblue;
+    }
+    .profile_navs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(242, 250, 242, 0.685);
+        border-bottom: rgb(189, 189, 189) 1px solid;
+        padding: 10px;
+        .nav_avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px; /* Радиус скругления */
+            border: 3px solid rgb(253, 255, 253); /* Параметры рамки */
+            box-shadow: 0 0 7px rgb(236, 231, 231); /* Параметры тени */
+            margin-right: 20px;
         }
     }
+   
+    li {
+        .nav_link {
+           color: rgba(227, 227, 240, 0.877);
+        }
+        width: 40px;
+        list-style-type: none;
+        padding-bottom: 10px;
+        color: rgb(150, 18, 18);
+        padding: 15px;
+        width: 200px;
+        }
+        li:hover {
+            background-color: rgb(52, 152, 219);
+            border: 1px solidrgb(66, 170, 240);
+            border-radius: 40px;
+            
+        }
+        .active:active {
+            background-color: rgba(180, 180, 230, 0.918);
+        }
+      
 }

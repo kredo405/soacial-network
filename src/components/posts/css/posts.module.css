@@ -13,5 +13,5 @@
     /* Радиус скругления */
     border: 3px solid white;
     /* Параметры рамки */ }
-  .posts .form_control {
-    min-width: 550px; }
+  .posts .form_textarea {
+    min-width: 55em; }

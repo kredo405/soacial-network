@@ -13,9 +13,8 @@ function Posts() {
         <div className = {p.posts_input}>
           <form>
           <div className= {p.form_group}>
-    <textarea className={p.form_control} rows="3"></textarea>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1"></input>
-    <button type="submit" class="btn btn-primary">Опубликовать</button>
+          <textarea className = {p.form_textarea} aria-label="With textarea"></textarea>
+          <button  class="btn btn-primary">Опубликовать</button>
           </div>
           </form>
            

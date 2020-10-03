@@ -1,6 +1,6 @@
 
 .header {
-    background-color: #ffffff;
+    background-color: #2ca8ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,9 +32,11 @@ a {
     
 }
 .header_nav_icons {
+    margin-left: 250px;
     li {
         display: inline-block;
         margin-left: 30px;
+        color: rgba(255, 255, 255, 0.932);
     }
 }
 .logo {

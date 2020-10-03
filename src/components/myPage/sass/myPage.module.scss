@@ -2,27 +2,24 @@
     grid-area: a;
     .avatar_fon{
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-     
+        justify-content: flex-start;
         background-image: url('https://dgdesign.ru/uploads/posts/2018-09/1535809097_abstraktnyy-fon-dlya-shapki-sayta-164223311.jpg');
         background-size: cover;
         height: 100%;
         .avatar {
-           max-width: 350px;
-            max-height: 350px;
-            border-radius: 0px 20px 20px 20px;
+           max-width: 150px;
+            min-height: 150px;
+            border-radius: 50%;
             /* Радиус скругления */
-            border: 2px solid #119ae9;
+            border: 1px solid rgb(204, 204, 204);
             /* Параметры рамки */
-            box-shadow: 0 0 10px rgb(16, 190, 202);
-        }
-        .about {
-    
+            box-shadow: 0 0 50px rgb(18, 138, 185);
+            margin: 50px;
         }
         .fon {
             display: flex;
             align-items: center;
+            
         }
       
     }

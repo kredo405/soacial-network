@@ -34,7 +34,7 @@
          
         }
         .input_group .input {
-         width: 80%;
+         width: 75%;
          border: rgb(206, 202, 202) 1px solid;
          border-radius: 10px;
         }
@@ -44,6 +44,11 @@
             border-radius: 10px;
             width: 10%;
             background-color: rgb(15, 204, 230);
+        }
+        .btn_send {
+            width: 20%;
+            margin: 2%
+           
         }
     }
 }

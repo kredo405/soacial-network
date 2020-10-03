@@ -1,26 +1,27 @@
 import React from 'react';
 import myPage from './css/myPage.module.css';
-import About from './about/about';
 import Posts from '../posts/posts';
 import Records from '../records/records';
 
-function MyPage() {
+
+
+
+function MyPage(props) {
    
   return (
   <div className ={myPage.MyPage}>
      <div className = {myPage.avatar_fon}>
      <div className = {myPage.fon}>
       <img className = {myPage.avatar} src = {require('./img/avatar.png')}/>
+      <h3>Александр Крейдич</h3><p>@Web-deweloper</p>
      </div>
-    <div className = {myPage.about}>
-    <About/>
-    </div>
+ 
     </div>
     <div className = {myPage.posts}>
       <Posts/>
     </div>
     <div className = {myPage.records}>
-    <Records/>
+    <Records recordingData = {props.state.recordingData}/>
     </div>
   </div>
   );

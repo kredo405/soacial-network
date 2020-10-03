@@ -3,19 +3,19 @@
   grid-area: a; }
   .MyPage .avatar_fon {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     background-image: url("https://dgdesign.ru/uploads/posts/2018-09/1535809097_abstraktnyy-fon-dlya-shapki-sayta-164223311.jpg");
     background-size: cover;
     height: 100%; }
     .MyPage .avatar_fon .avatar {
-      max-width: 350px;
-      max-height: 350px;
-      border-radius: 0px 20px 20px 20px;
+      max-width: 150px;
+      min-height: 150px;
+      border-radius: 50%;
       /* Радиус скругления */
-      border: 2px solid #119ae9;
+      border: 1px solid #cccccc;
       /* Параметры рамки */
-      box-shadow: 0 0 10px #10beca; }
+      box-shadow: 0 0 50px #128ab9;
+      margin: 50px; }
     .MyPage .avatar_fon .fon {
       display: flex;
       align-items: center; }
